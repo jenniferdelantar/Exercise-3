@@ -22,7 +22,7 @@ body {
     max-width: 500px; /* Medium-sized box */
     width: 100%;
     padding: 20px;
-    background-color: rgba(41, 21, 78, 0.6); /* White background with 80% opacity */
+    background-color: rgba(41, 21, 78, 0.6);
     border: 2px solid #0f0f0f;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -41,8 +41,8 @@ h1 {
 
 h1 img {
     vertical-align: middle; /* Aligns the image vertically with the text */
-    width: 30px; /* Adjust as necessary */
-    height: auto; /* Maintain aspect ratio */
+    width: 30px; 
+    height: auto; 
 }
 
 /* Form styling */
