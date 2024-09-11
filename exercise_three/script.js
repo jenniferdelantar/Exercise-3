@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }).then((result) => {
                 if (result.isConfirmed) {
                     // Redirect to delete the task
-                    window.location.href = `notes.php?delete=${index}`;
+                    window.location.href = `grp5_delantarjennifer_ex3.php?delete=${index}`;
                 }
             });
         });
