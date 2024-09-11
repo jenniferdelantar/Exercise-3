@@ -1,0 +1,121 @@
+/* Reset some default styles */
+body, h1, h2, ul, li, form, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #153677, #4e085f);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container for the todo list */
+.container {
+    max-width: 500px; /* Medium-sized box */
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(41, 21, 78, 0.6); /* White background with 80% opacity */
+    border: 2px solid #0f0f0f;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Title styling */
+h1 {
+    color: #3498db;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
+
+h1 img {
+    vertical-align: middle; /* Aligns the image vertically with the text */
+    width: 30px; /* Adjust as necessary */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 2px solid #3498db;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+button[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+button[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+/* Task list styling */
+h2 {
+    color: #0a0a0a;
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+}
+
+li {
+    background-color: #ecf0f1;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+li button.delete-btn {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+li button.delete-btn:hover {
+    background-color: #c0392b;
+}
